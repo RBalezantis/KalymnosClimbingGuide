@@ -8,7 +8,7 @@ on:
 permissions:
   contents: read      # Needed for actions/checkout
   pages: write        # Allows deployment to GitHub Pages
-  id-token: write     # Required for authentication with OIDC
+  id-token: write     # Required for authentication wi th OIDC
 
 concurrency:
   group: "pages"
