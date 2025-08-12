@@ -4,7 +4,16 @@ on:
   push:
     branches:
       - main
+      
+permissions:
+  contents: read      # Needed for actions/checkout
+  pages: write        # Allows deployment to GitHub Pages
+  id-token: write     # Required for authentication with OIDC
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+  
 jobs:
   build:
     runs-on: ubuntu-latest
