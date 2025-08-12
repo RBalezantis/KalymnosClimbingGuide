@@ -76,10 +76,10 @@ const cragsData = {
   },
 
   "Sikati Cave": {
-    image: "/public/images/full/sikati-cave-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/sikati-cave-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/sikati-cave-small.jpg",
-    description: "Sikati Cave is a broad sheltered bowl on the north side, with steep tufas and long test-piece routes. Approach: longer drive and a descent to reach the cave; worth the effort for the shade and powerful lines. Sun: mostly shaded. Grade range: 5.11–5.13. Total routes: ~30.",
+    image: `${import.meta.env.BASE_URL}images/full/sikati-cave-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/sikati-cave-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/sikati-cave-small.jpg`,
+    description: "Sikati Cave is a broad sheltered bowl on the north side...",
     climbs: [
       {
         id: "sc-mort",
@@ -122,10 +122,10 @@ const cragsData = {
   },
 
   "Odyssey": {
-    image: "/public/images/full/odyssey-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/odyssey-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/odyssey-small.jpg",
-    description: "Odyssey is an expansive crag with mixed tufas and vertical walls. Approach: very short from Masouri; multiple sub-sectors offer variety in sun exposure. Grade range: 5.10–5.13. Total routes: ~60.",
+    image: `${import.meta.env.BASE_URL}images/full/odyssey-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/odyssey-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/odyssey-small.jpg`,
+    description: "Odyssey is an expansive crag...",
     climbs: [
       {
         id: "od-marci",
@@ -178,10 +178,10 @@ const cragsData = {
   },
 
   "Motor City": {
-    image: "/public/images/full/motor-city-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/motor-city-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/motor-city-small.jpg",
-    description: "Motor City is compact and super steep, packed with power tufas and overhung faces. Approach: very short, often paired with the big-wall days. Sun: mixed exposure. Grade range: 5.11–5.13+. Total routes: ~25.",
+    image: `${import.meta.env.BASE_URL}images/full/motor-city-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/motor-city-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/motor-city-small.jpg`,
+    description: "Motor City is compact and super steep...",
     climbs: [
       {
         id: "mc-tufantastic",
@@ -215,10 +215,10 @@ const cragsData = {
   },
 
   "Vlychadia": {
-    image: "/public/images/full/vlychadia-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/vlychadia-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/vlychadia-small.jpg",
-    description: "Vlychadia offers quieter sectors and recent bolting with quality lines on less-polished rock. Approach: short drives and walks. Sun: some sectors shaded in the afternoon. Grade range: 5.10–5.12. Total routes: ~20.",
+    image: `${import.meta.env.BASE_URL}images/full/vlychadia-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/vlychadia-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/vlychadia-small.jpg`,
+    description: "Vlychadia offers quieter sectors...",
     climbs: [
       {
         id: "vly-oasis",
@@ -242,10 +242,10 @@ const cragsData = {
   },
 
   "Telendos - Princess Canyon": {
-    image: "/public/images/full/telendos-princess-canyon-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/telendos-princess-canyon-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/telendos-princess-canyon-small.jpg",
-    description: "Telendos is a scenic island just offshore, with quiet sectors like Princess Canyon and Three Caves. Approach: short walks from the harbour. Sun: open exposures and cooling breezes. Grade range: 5.9–5.12. Total routes: ~35.",
+    image: `${import.meta.env.BASE_URL}images/full/telendos-princess-canyon-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/telendos-princess-canyon-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/telendos-princess-canyon-small.jpg`,
+    description: "Telendos is a scenic island...",
     climbs: [
       {
         id: "tl-princess-saga",
@@ -305,10 +305,10 @@ const cragsData = {
   },
 
   "St Constantine": {
-    image: "/public/images/full/st-constantine-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/st-constantine-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/st-constantine-small.jpg",
-    description: "St Constantine is a cluster of inland crags featuring slabs and vertical tufas. Approach: short drives and walks. Sun: good morning exposure. Grade range: 5.10–5.12. Total routes: ~40.",
+    image: `${import.meta.env.BASE_URL}images/full/st-constantine-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/st-constantine-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/st-constantine-small.jpg`,
+    description: "St Constantine is a cluster...",
     climbs: [
       {
         id: "scn-st-dead",
@@ -369,10 +369,10 @@ const cragsData = {
   },
 
   "Arginonta Valley": {
-    image: "/public/images/full/arginonta-valley-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/arginonta-valley-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/arginonta-valley-small.jpg",
-    description: "Arginonta Valley offers long single-pitch walls and some multi-pitch potential. Approach: longer drive but rewarding. Sun: morning sun, shade by afternoon. Grade range: 5.10–5.12+. Total routes: ~30.",
+    image: `${import.meta.env.BASE_URL}images/full/arginonta-valley-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/arginonta-valley-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/arginonta-valley-small.jpg`,
+    description: "Arginonta Valley offers long single-pitch walls...",
     climbs: [
       {
         id: "arg-enduro",
@@ -415,10 +415,10 @@ const cragsData = {
   },
 
   "Kasteli / Panormos": {
-    image: "/public/images/full/kasteli-panormos-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/kasteli-panormos-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/kasteli-panormos-small.jpg",
-    description: "Kasteli & Panormos are seaside slabs and vertical lines — perfect for recovery with sea views. Approach: very short from the beach. Sun: lots of sun + cooling breeze. Grade range: 5.8–5.12. Total routes: ~25.",
+    image: `${import.meta.env.BASE_URL}images/full/kasteli-panormos-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/kasteli-panormos-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/kasteli-panormos-small.jpg`,
+    description: "Kasteli & Panormos are seaside slabs...",
     climbs: [
       {
         id: "ka-slab-view",
@@ -452,10 +452,10 @@ const cragsData = {
   },
 
   "Panorama": {
-    image: "/public/images/full/panorama-full.jpg",
-    thumbnailLarge: "/public/images/thumbnails-large/panorama-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/panorama-small.jpg",
-    description: "Panorama, adjacent to Grande Grotta, features long tufas and scenic outlooks. Approach: short walk from Armeos. Sun: varies by sector; excellent late-afternoon light. Grade range: 5.10–5.13. Total routes: ~30.",
+    image: `${import.meta.env.BASE_URL}images/full/panorama-full.jpg`,
+    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/panorama-large.jpg`,
+    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/panorama-small.jpg`,
+    description: "Panorama, adjacent to Grande Grotta...",
     climbs: [
       {
         id: "pa-tufa-fish",
