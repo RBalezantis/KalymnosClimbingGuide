@@ -1,8 +1,7 @@
 const cragsData = {
   "Grande Grotta": {
-    image: `${import.meta.env.BASE_URL}images/full/grande-grotta-full.jpg`
+    image: "/public/images/full/grande-grotta-full.jpg",
     thumbnailLarge: "/public/images/thumbnails-large/grande-grotta-large.jpg",
-    thumbnailSmall: "/public/images/thumbnails-small/grande-grotta-small.jpg",
     description: "Grande Grotta is the showpiece cave on Kalymnos near Armeos/Masouri. Characterised by massive overhanging tufas, long sustained routes and spectacular sunset views to Telendos. Approach: short walk from the road and village; expect some steps. Sun: shaded early but the lip gets late-afternoon/sunset light. Grade range: mainly 5.10–5.13. Total routes: ~50.",
     climbs: [
       {
