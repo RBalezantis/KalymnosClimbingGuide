@@ -195,7 +195,7 @@ const cragsData = {
   <li><strong>Sun/shade:</strong> Mixed exposure; shade in the mornings, more sun in late afternoon. Steepness provides shelter from light rain.</li>
   <li><strong>Location:</strong> Easily accessible sector near the Masouri/Armeos climbing hub, reached via a short path from the road.</li>
 </ul>
-`;
+`}
 
     climbs: [
       {
