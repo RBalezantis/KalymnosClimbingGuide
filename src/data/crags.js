@@ -235,43 +235,6 @@ const cragsData = {
     ]
   },
 
-  "Motor City": {
-  image: `${import.meta.env.BASE_URL}images/full/motor-city-full.jpg`,
-  thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/motor-city-large.jpg`,
-  thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/motor-city-small.jpg`,
-  description: "Motor City is one of Kalymnos' most concentrated and visually striking steep crags. Perched on the slopes above the island's main climbing areas, it is a compact wall packed with short but fiercely overhanging routes on fat tufas, pockets, and jugs. The climbing style here is athletic and powerful, with continuous sequences that often require knee-bars, core tension, and quick decision-making. Many routes begin with a bouldery entry section before flowing into pumpy tufa wrestles or long reaches between good holds. Approach is short — barely five minutes from the road — making it popular for half-day sessions or as a follow-up after climbing in nearby sectors. The cliff's steepness keeps it dry even in light rain, and the slightly north-west aspect means it gets a mix of sun and shade depending on the season and time of day. In summer, shade can be found earlier in the day, while winter climbing benefits from afternoon light.The atmosphere is intimate, with routes starting close to one another, making it easy for groups to share beta and cheer each other on. Despite its small footprint, Motor City packs in some of the most photogenic steep lines on the island, often streaked with orange and grey limestone and dotted with tufa curtains. Climbing style: Steep, powerful tufa climbing with short cruxes and pumpy sustained sequences; common use of knee-bars, pockets, and athletic movement. Grade range: Around 5.11 to 5.13+, with a focus on mid- to upper-end difficulty. Number of routes: Roughly 25 bolted lines. Sun/shade: Mixed exposure; shade in the mornings, more sun in late afternoon. Steepness provides shelter from light rain. Location: Easily accessible sector near the Masouri/Armeos climbing hub, reached via a short path from the road.",
-    climbs: [
-      {
-        id: "mc-tufantastic",
-        name: "Tufantastic",
-        grade: "5.13a",
-        length: 40,
-        mpLink: "https://www.mountainproject.com/route/106934295/tufantastic",
-        cragLink: "https://www.thecrag.com/en/climbing/greece/kalymnos/armeos/route/16279477",
-        lastChecked: "2025-08-11",
-        comment: "A steely tufa fest with brilliant sustained climbing; often cited as a must-do test-piece."
-      },
-      {
-        id: "mc-white-bread",
-        name: "White Bread",
-        grade: "5.12b",
-        length: 25,
-        mpLink: "https://www.mountainproject.com/route/106935678/white-bread",
-        lastChecked: "2025-08-11",
-        comment: "Short, polished steep climbing with technical footwork; logbooks say it burns fast but is super satisfying."
-      },
-      {
-        id: "mc-money-crushing-machine",
-        name: "Money Crushing Machine",
-        grade: "5.12a",
-        length: 25,
-        mpLink: "https://www.mountainproject.com/route/121529438/money-crushing-machine",
-        lastChecked: "2025-08-11",
-        comment: "Powerful, pumpy tufas in a compact line — often praised for its clean establish sequence."
-      }
-    ]
-  },
-
   "Vlychadia": {
     image: `${import.meta.env.BASE_URL}images/full/vlychadia-full.jpg`,
     thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/vlychadia-large.jpg`,
