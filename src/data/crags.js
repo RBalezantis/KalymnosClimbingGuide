@@ -176,15 +176,15 @@ const cragsData = {
       }
     ]
   },
-
+  
   "Motor City": {
-    image: `${import.meta.env.BASE_URL}images/full/motor-city-full.jpg`,
-    thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/motor-city-large.jpg`,
-    thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/motor-city-small.jpg`,
-    description: `
-<p>Motor City is one of Kalymnos’ most concentrated and visually striking steep crags. Perched on the slopes above the island’s main climbing areas, it is a compact wall packed with short but fiercely overhanging routes on fat tufas, pockets, and jugs. The climbing style here is athletic and powerful, with continuous sequences that often require knee-bars, core tension, and quick decision-making. Many routes begin with a bouldery entry section before flowing into pumpy tufa wrestles or long reaches between good holds.</p>
+  image: `${import.meta.env.BASE_URL}images/full/motor-city-full.jpg`,
+  thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/motor-city-large.jpg`,
+  thumbnailSmall: `${import.meta.env.BASE_URL}images/thumbnails-small/motor-city-small.jpg`,
+  description: `
+<p>Motor City is one of Kalymnos' most concentrated and visually striking steep crags. Perched on the slopes above the island's main climbing areas, it is a compact wall packed with short but fiercely overhanging routes on fat tufas, pockets, and jugs. The climbing style here is athletic and powerful, with continuous sequences that often require knee-bars, core tension, and quick decision-making. Many routes begin with a bouldery entry section before flowing into pumpy tufa wrestles or long reaches between good holds.</p>
 
-<p>Approach is short — barely five minutes from the road — making it popular for half-day sessions or as a follow-up after climbing in nearby sectors. The cliff’s steepness keeps it dry even in light rain, and the slightly north-west aspect means it gets a mix of sun and shade depending on the season and time of day. In summer, shade can be found earlier in the day, while winter climbing benefits from afternoon light.</p>
+<p>Approach is short — barely five minutes from the road — making it popular for half-day sessions or as a follow-up after climbing in nearby sectors. The cliff's steepness keeps it dry even in light rain, and the slightly north-west aspect means it gets a mix of sun and shade depending on the season and time of day. In summer, shade can be found earlier in the day, while winter climbing benefits from afternoon light.</p>
 
 <p>The atmosphere is intimate, with routes starting close to one another, making it easy for groups to share beta and cheer each other on. Despite its small footprint, Motor City packs in some of the most photogenic steep lines on the island, often streaked with orange and grey limestone and dotted with tufa curtains.</p>
 
@@ -195,8 +195,7 @@ const cragsData = {
   <li><strong>Sun/shade:</strong> Mixed exposure; shade in the mornings, more sun in late afternoon. Steepness provides shelter from light rain.</li>
   <li><strong>Location:</strong> Easily accessible sector near the Masouri/Armeos climbing hub, reached via a short path from the road.</li>
 </ul>
-`}
-
+`,
     climbs: [
       {
         id: "mc-tufantastic",
