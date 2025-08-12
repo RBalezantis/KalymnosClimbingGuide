@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 24">
+  <defs>
+    <linearGradient id="rgrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#c68a3a"></stop>
+      <stop offset="1" stop-color="#8b5e2e"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M4 12 C20 2, 40 22, 56 12 C72 2, 92 22, 116 12" fill="none" stroke="url(#rgrad)" stroke-width="4" stroke-linecap="round"></path>
+</svg>

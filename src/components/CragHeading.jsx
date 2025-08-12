@@ -11,7 +11,8 @@ const artMap = {
   "St Constantine": `${import.meta.env.BASE_URL}artwork/st-constantine.svg`,
   "Arginonta Valley": `${import.meta.env.BASE_URL}artwork/arginonta-valley.svg`,
   "Kasteli / Panormos": `${import.meta.env.BASE_URL}artwork/kasteli-panormos.svg`,
-  "Panorama": `${import.meta.env.BASE_URL}artwork/panorama.svg`
+  "Panorama": `${import.meta.env.BASE_URL}artwork/panorama.svg`,
+  "Secret Garden": `${import.meta.env.BASE_URL}artwork/grande-grotta.svg`
 };
 
 export default function CragHeading({ cragKey, subtitle }) {
