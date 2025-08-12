@@ -1,0 +1,97 @@
+/* med-theme.css - Mediterranean theme for Kalymnos app */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Montserrat:wght@300;400;600&display=swap');
+
+:root{
+  --sea-700: #0f4666;
+  --sea-500: #1e7aa7;
+  --terracotta: #d97752;
+  --sand: #f2e9dc;
+  --olive: #6b8a48;
+  --ink: #21303a;
+  --muted: #6c7a86;
+  --accent: #ffb84d;
+  --card-bg: rgba(255,255,255,0.85);
+  --glass: rgba(255,255,255,0.55);
+}
+
+body {
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #f8fbfc 0%, #f1f7f9 100%);
+  color: var(--ink);
+  margin: 0;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* Crag heading container */
+.crag-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(90deg, rgba(255,255,255,0.95), rgba(250,246,241,0.95));
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(18,40,60,0.06);
+  margin: 0.9rem 0;
+  position: relative;
+  overflow: visible;
+  border: 1px solid rgba(34,48,60,0.04);
+}
+
+/* decorative SVG block on the left */
+.crag-heading__art {
+  width: 96px;
+  height: 56px;
+  flex: 0 0 96px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.08));
+  border-radius: 8px;
+}
+
+/* heading text */
+.crag-heading__title {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 1.6rem;
+  color: var(--sea-700);
+  letter-spacing: 0.6px;
+  margin: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+}
+
+/* subline (description/summary) */
+.crag-heading__meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* tiny rope accent to right side */
+.crag-heading__rope {
+  margin-left: auto;
+  width: 64px;
+  height: 20px;
+  flex: 0 0 64px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  opacity: 0.9;
+}
+
+/* small horizontal rule between heading & content */
+.crag-divider {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(30,122,167,0), rgba(30,122,167,0.08), rgba(30,122,167,0));
+  margin: 0.6rem 0;
+  border-radius: 2px;
+}
+
+/* responsive adjustments */
+@media (max-width: 720px) {
+  .crag-heading { padding: 0.6rem; gap:0.6rem; }
+  .crag-heading__art { width: 72px; height: 44px; }
+  .crag-heading__title { font-size: 1.25rem; }
+  .crag-heading__rope { display: none; }
+}

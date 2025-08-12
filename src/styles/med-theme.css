@@ -1,0 +1,27 @@
+.crag-heading {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #fdf6e3, #fceabb);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.crag-art {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.crag-title h2 {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #2f4f4f;
+}
+
+.subtitle {
+  font-size: 0.85em;
+  color: #555;
+  margin: 0;
+}
