@@ -6,7 +6,7 @@ const artMap = {
   "Sikati Cave": `${import.meta.env.BASE_URL}artwork/sikati-cave.svg`,
   "Odyssey": `${import.meta.env.BASE_URL}artwork/odyssey.svg`,
   "Motor City": `${import.meta.env.BASE_URL}artwork/motor-city.svg`,
-  "Vlychadia": `${import.meta.env.BASE_URL}vlychadia.svg`,
+  "Vlychadia": `${import.meta.env.BASE_URL}artwork/vlychadia.svg`,
   "Telendos - Princess Canyon": `${import.meta.env.BASE_URL}artwork/telendos-princess-canyon.svg`,
   "St Constantine": `${import.meta.env.BASE_URL}artwork/st-constantine.svg`,
   "Arginonta Valley": `${import.meta.env.BASE_URL}artwork/arginonta-valley.svg`,
