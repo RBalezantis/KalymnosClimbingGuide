@@ -177,6 +177,64 @@ const cragsData = {
     ]
   },
   
+  "Secret Garden": {
+    "image": "${import.meta.env.BASE_URL}images/full/secret-garden-full.jpg",
+    "thumbnailLarge": "${import.meta.env.BASE_URL}images/thumbnails-large/secret-garden-large.jpg",
+    "description": "Secret Garden is a secluded crag on Kalymnos, known for its steep tufa and pocket climbing. It offers excellent climbing in the shade throughout the day, making it an ideal choice for hot weather. The crag is situated in a serene environment and is characterized by athletic, pumpy routes. Approach: 15-minute walk from the main road; expect a bit of a scramble at the end. Sun: Shaded all day. Grade range: 5.10–5.13+. Total routes: ~40.",
+    "climbs": [
+      {
+        "id": "sg-frapogalo",
+        "name": "Frapogalo",
+        "grade": "5.11b",
+        "length": 25,
+        "mpLink": "https://www.mountainproject.com/route/111818165/frapogalo",
+        "cragLink": "https://www.thecrag.com/en/climbing/greece/kalymnos/armeos/route/16280424",
+        "lastChecked": "2025-08-11",
+        "comment": "Popular, sustained tufa climbing with good rests; classic for the grade at this crag."
+      },
+      {
+        "id": "sg-melodrama",
+        "name": "Melodrama",
+        "grade": "5.11c",
+        "length": 25,
+        "mpLink": "https://www.mountainproject.com/route/111818171/melodrama",
+        "cragLink": "https://www.thecrag.com/en/climbing/greece/kalymnos/armeos/route/16280425",
+        "lastChecked": "2025-08-11",
+        "comment": "Fun, pumpy climbing on good holds with a memorable final sequence."
+      },
+      {
+        "id": "sg-ricounet",
+        "name": "Ricounet",
+        "grade": "5.11d",
+        "length": 25,
+        "mpLink": "https://www.mountainproject.com/route/111818177/ricounet",
+        "cragLink": "https://www.thecrag.com/en/climbing/greece/kalymnos/armeos/route/16280426",
+        "lastChecked": "2025-08-11",
+        "comment": "High-quality, technical route with engaging movement; a must-do for the grade."
+      },
+      {
+        "id": "sg-crisis",
+        "name": "Crisis",
+        "grade": "5.11d",
+        "length": 25,
+        "mpLink": "https://www.mountainproject.com/route/111818179/crisis",
+        "cragLink": "https://www.thecrag.com/en/climbing/greece/kalymnos/armeos/route/16280427",
+        "lastChecked": "2025-08-11",
+        "comment": "Excellent, sustained climbing that feels harder than the grade; a local favorite."
+      },
+      {
+        "id": "sg-ballos",
+        "name": "Ballos",
+        "grade": "5.12a",
+        "length": 25,
+        "mpLink": "https://www.mountainproject.com/route/111818182/ballos",
+        "cragLink": "https://www.thecrag.com/en/climbing/greece/kalymnos/armeos/route/16280428",
+        "lastChecked": "2025-08-11",
+        "comment": "A true classic for the grade, with dynamic tufa climbing and an unforgettable finish."
+      }
+    ]
+  },
+
   "Motor City": {
   image: `${import.meta.env.BASE_URL}images/full/motor-city-full.jpg`,
   thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/motor-city-large.jpg`,
