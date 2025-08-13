@@ -84,7 +84,7 @@ const cragsData = {
     "Odyssey": {
         // An iconic and accessible crag with a wide variety of climbing styles.
         // It's a great spot for both beginners and experienced climbers, with excellent rock quality.
-        image: `${import.meta.env.BASE_URL}images/full/odyssey`,
+        image: `${import.meta.env.BASE_URL}images/full/odyssey.jpg`,
         thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/odyssey`,
         description: "Odyssey is one of Kalymnos’ most iconic and accessible crags, located just a short walk from the village of Masouri. It offers a wide variety of climbing styles, from vertical faces on sharp edges and pockets to steep tufa wrestling. The grade range is excellent, running from about 5.10a to 5.13+, with around 60 bolted routes. Due to its size and orientation, it gets morning shade and afternoon sun, making it a great option for early starts on warm days or for catching some sun in the cooler seasons.",
         climbs: [
@@ -157,7 +157,7 @@ const cragsData = {
     "Masouri": {
         // A highly accessible crag right above the village of Masouri,
         // offering a mix of vertical, pocketed climbing and some slightly overhanging routes.
-        image: `${import.meta.env.BASE_URL}images/full/masouri`,
+        image: `${import.meta.env.BASE_URL}images/full/masouri.jpg`,
         thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/masouri`,
         description: "The Masouri crag is a central and highly accessible area, located directly above the village. It provides a mix of vertical, technical climbing on pockets and crimps, with some sections offering slightly overhanging routes. With a grade range from approximately 5.10 to 5.12+, it’s a great spot for an easy warm-up or a relaxed day of climbing. The crag has around 20-30 routes and is best enjoyed in the morning when it’s in the shade, as it gets full sun in the afternoon.",
         climbs: [
@@ -221,7 +221,7 @@ const cragsData = {
     "Panorama": {
         // A scenic crag with breathtaking views, offering a mix of steep tufa and featured walls.
         // Known for its long and rewarding routes.
-        image: `${import.meta.env.BASE_URL}images/full/panorama`,
+        image: `${import.meta.env.BASE_URL}images/full/panorama.jpg`,
         thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/panorama`,
         description: "Panorama is one of Kalymnos’ most scenic crags, located on the slopes above Armeos with breathtaking views. The climbing style here blends athletic tufa movement with technical precision on featured walls. It offers around 30 routes in the 5.10a to 5.13+ grade range. The crag’s orientation provides excellent late-afternoon light, making it a fantastic spot for scenic sunsets, but it can be hot during midday in the summer.",
         climbs: [
@@ -349,7 +349,7 @@ const cragsData = {
     "Telendos - Princess Canyon": {
         // Located on the nearby island of Telendos, this crag offers a more secluded and peaceful experience.
         // The climbing is technical on vertical walls with pockets and crimps.
-        image: `${import.meta.env.BASE_URL}images/full/telendos-princess-canyon`,
+        image: `${import.meta.env.BASE_URL}images/full/telendos-princess-canyon.jpg`,
         thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/telendos-princess-canyon`,
         description: "Telendos is a picturesque island just off the western coast of Kalymnos. Princess Canyon, one of its single-pitch sectors, offers a more secluded and adventurous experience. The climbing here is technical and balanced on vertical walls with pockets, crimps, and occasional tufas. It features around 35 single-pitch routes and the grade range is from 5.9 to 5.12. The crags are mostly sunny, but sea breezes often keep conditions comfortable, and the quiet atmosphere makes it a peaceful escape.",
         climbs: [
@@ -422,7 +422,7 @@ const cragsData = {
     "Arginonta Valley": {
         // A peaceful inland valley with varied limestone and sustained, endurance-based routes.
         // It's a great choice for avoiding crowds on busier days.
-        image: `${import.meta.env.BASE_URL}images/full/arginonta-valley`,
+        image: `${import.meta.env.BASE_URL}images/full/arginonta-valley.jpg`,
         thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/arginonta-valley`,
         description: "Arginonta Valley is a beautiful inland climbing area located a moderate drive from the main climbing hubs. It features varied limestone from compact vertical faces to slightly overhanging walls with pockets, crimps, and some tufas. The climbing is sustained and endurance-based, with a grade range of roughly 5.10a to 5.12+. The area has about 30 routes and is best climbed in the afternoon when it is shaded, as it gets morning sun.",
         climbs: [
@@ -495,7 +495,7 @@ const cragsData = {
     "Kasteli / Panormos": {
         // A laid-back seaside crag with technical vertical and slab climbing on featured limestone.
         // Perfect for a relaxed day with a sea breeze.
-        image: `${import.meta.env.BASE_URL}images/full/kasteli-panormos`,
+        image: `${import.meta.env.BASE_URL}images/full/kasteli-panormos.jpg`,
         thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/kasteli-panormos`,
         description: "Kasteli / Panormos is a laid-back seaside climbing area known for its relaxed atmosphere and scenic views. The climbing style is technical and balance-oriented, primarily on vertical walls and slabs with highly featured limestone. The crag offers around 25 routes, with a grade range from 5.8 to 5.12. While it gets plenty of sun throughout the day, a constant sea breeze helps keep conditions comfortable, making it a perfect spot to combine climbing with a swim.",
         climbs: [
@@ -559,7 +559,7 @@ const cragsData = {
     "St Constantine": {
         // An inland crag with technical, slabby climbing.
         // It's a great change of pace from the island's more famous caves.
-        image: `${import.meta.env.BASE_URL}images/full/st-constantine`,
+        image: `${import.meta.env.BASE_URL}images/full/st-constantine.jpg`,
         thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/st-constantine`,
         description: "St Constantine is a collection of inland crags located a short drive from the main climbing hubs. The climbing is generally more technical and balance-oriented than steep, rewarding precise footwork. With a grade range mostly between 5.10a to 5.12, it is a great crag to visit to work on technique and get away from the crowds. The area has about 40 routes and gets morning sun, making it an excellent choice for early starts in cooler months, but can become hot in the afternoons.",
         climbs: [
@@ -623,7 +623,7 @@ const cragsData = {
     "Sectors": {
         // This is a broad area covering multiple sectors above Masouri. 
         // It's a great area for a first-time visitor with many easily accessible climbs.
-        image: `${import.meta.env.BASE_URL}images/full/sectors`,
+        image: `${import.meta.env.BASE_URL}images/full/sectors.jpg`,
         thumbnailLarge: `${import.meta.env.BASE_URL}images/thumbnails-large/sectors`,
         description: "The area known as 'Sectors' covers a broad range of sub-sectors above Masouri. It is an extremely popular and easily accessible area with a wide array of routes and grades. The climbing styles vary across the different sub-sectors, from technical vertical faces to steep, pocketed walls and tufas. With a large number of routes and a grade range from 5.10a to 5.12d, it's an ideal spot for a first-time visitor. Due to its size and orientation, sun and shade conditions vary, but it's generally a good choice for all-day climbing, allowing you to move between different walls as the sun moves.",
         climbs: [
