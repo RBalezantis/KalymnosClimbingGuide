@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140">
-  <rect width="100%" height="100%" rx="8" fill="#eef7f8"></rect>
-  <g transform="translate(18,28)" stroke="#174a63" stroke-width="2" fill="none">
-    <path d="M0,80 L20,40 C40,10 120,10 160,40 L180,80"></path>
-    <path d="M40,80 C70,45 110,45 140,80"></path>
-  </g>
-  <rect x="16" y="98" width="208" height="10" rx="5" fill="#d1f0ff" opacity="0.6"></rect>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sikati Cave: Dramatic, open-air sinkhole, long sustained tufa and pocket climbing -->
+    <defs>
+        <radialGradient id="sikati-grad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#a8d0e6;"/>
+            <stop offset="100%" style="stop-color:#21303a;"/>
+        </radialGradient>
+    </defs>
+    <rect width="100" height="100" rx="15" ry="15" fill="#4a4e69"/>
+    <circle cx="50" cy="50" r="40" fill="url(#sikati-grad)"/>
+    <path d="M 50,90 C 48,70 45,30 42,10" fill="none" stroke="#d97752" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 60,90 C 58,70 55,30 52,10" fill="none" stroke="#e6a88a" stroke-width="3" stroke-linecap="round"/>
 </svg>

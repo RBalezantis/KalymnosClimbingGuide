@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140">
-  <rect width="100%" height="100%" rx="8" fill="#f6fbfc"></rect>
-  <g transform="translate(12,24)" fill="none" stroke="#2b6777" stroke-width="2.5">
-    <!-- stylized ship hull -->
-    <path d="M6,88 C36,52 100,42 160,70" stroke-linecap="round"></path>
-    <path d="M40,70 L50,42 L62,46" stroke-linecap="round"></path>
-    <circle cx="190" cy="34" r="10" fill="#ffd29d" stroke="none"></circle>
-  </g>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Odyssey: Iconic, accessible, wide variety of styles (vertical faces, sharp edges, pockets, steep tufa) -->
+    <rect width="100" height="100" rx="15" ry="15" fill="#e6f2ff"/>
+    <path d="M 20 80 L 50 20 L 80 80 Z" fill="#d97752" stroke="#c96742" stroke-width="2"/>
+    <path d="M 40 80 L 42 60 C 45 40 48 40 50 60 L 52 80" fill="none" stroke="#b5651d" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="65" cy="45" r="5" fill="#fff"/>
+    <rect x="25" y="50" width="10" height="10" fill="#fff" transform="rotate(45 30 55)"/>
 </svg>

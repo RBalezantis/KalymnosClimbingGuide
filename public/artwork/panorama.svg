@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140">
-  <rect width="100%" height="100%" rx="8" fill="#fffaf5"></rect>
-  <g transform="translate(8,20)" fill="none" stroke="#1b4e66" stroke-width="2.5">
-    <path d="M0,86 C40,28 120,18 200,70"></path>
-    <path d="M26,70 C56,40 106,40 136,70"></path>
-  </g>
-  <g transform="translate(180,14)"><circle r="12" cx="0" cy="0" fill="#ffbe66"></circle></g>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Panorama: Scenic, breathtaking views, steep tufa and featured walls -->
+    <defs>
+        <linearGradient id="panorama-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#ffb84d;"/>
+            <stop offset="100%" style="stop-color:#d97752;"/>
+        </linearGradient>
+    </defs>
+    <rect width="100" height="100" rx="15" ry="15" fill="url(#panorama-sky)"/>
+    <path d="M 0 100 L 0 70 Q 50 40, 100 70 L 100 100 Z" fill="#21303a"/>
+    <path d="M 20 80 C 30 60, 40 60, 50 80" stroke="white" stroke-width="2" fill="none"/>
+    <path d="M 60 85 C 70 65, 80 65, 90 85" stroke="white" stroke-width="2" fill="none"/>
 </svg>
